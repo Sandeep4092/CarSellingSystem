@@ -16,14 +16,14 @@ public class SalesMen extends JFrame implements ActionListener
     
     SalesMen()
     {
-        super("Librarian Login Page");
+        super("SalesMen Login Page");
        setLocation(450,400);
        setSize(500,200);
        
        f=new Font("Arial",Font.BOLD,25);
        f1=new Font("Arial",Font.BOLD,20);
        
-       l1=new JLabel("Librarian Login");
+       l1=new JLabel("SalesMen Login");
        l2=new JLabel("Name");
        l3=new JLabel("Password");
        
